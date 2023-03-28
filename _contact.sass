@@ -1,0 +1,73 @@
+#contact
+    background-color: #212529
+    background-image: url('assets.new/map-image.png')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+
+    .box
+        .textbox
+            margin-bottom: 40px
+            h1
+                font-weight: 700
+                font-size: 42px
+                color: #ffffff
+                padding: 15px
+            h3
+                color: #948e8e
+                font-size: 19px
+
+        .add
+            margin-bottom: 24px
+
+            input
+                font-size: 18px
+                max-width: unset
+                min-height: 66px
+                width: 100%
+                height: 60px
+
+            input::placeholder
+                color: #cecccc
+
+            input:focus
+                color: #000
+
+            @media (min-width: 1024px)
+                max-width: 636px
+
+        .add:last-child
+            margin-bottom: 20px
+            @media (min-width: 1024px)
+                margin-bottom: 0
+
+    .textbox
+        textarea
+            max-height: 246px
+            width: 100%
+            font-size: 18px
+            padding: 15px
+            border-radius: 5px
+            resize: none
+
+        textarea::placeholder
+            color: #cecccc
+
+        textarea:focus
+            color: #000
+
+    .btn
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 4px
+        font-size: 20px
+        font-weight: 700
+        color: #ffffff
+        background-color: #e9e767
+        width: 250px
+        height: 60px
+        margin-top: 30px
+
+    .btn:hover
+        background-color: #bab851
